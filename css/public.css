@@ -2,25 +2,36 @@
     padding: 0;
     margin: 0;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     font-family: 'Caveat';
 }
-.container{
+
+.container {
     height: 100%;
     background-color: #f7f2ef;
 }
+
 footer {
     background-color: #c3a6a0;
     font-size: 1rem;
     padding: 10px;
     text-align: center;
 }
-footer div{
+
+footer div {
     width: 33.3%;
     color: #fff;
 }
-main{
-    padding-top: 2rem;
+
+main {
     background-color: #f7f2ef;
+}
+
+@media screen and (max-width: 90ch) {
+    main {
+        padding-top: 2rem;
+    }
 }
