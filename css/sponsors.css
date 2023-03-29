@@ -1,0 +1,50 @@
+.formBox,
+.supportList {
+    padding: 10px;
+}
+
+.supportList {
+    padding-top: 2rem;
+}
+
+.inputBox,
+.buttonBox {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.formBox h2 {
+    text-align: right;
+}
+
+.inputBox label {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+}
+
+.buttonBox {
+    text-align: center;
+}
+
+.imgBox {
+    padding: 10px;
+}
+
+.imgBox a {
+    width: 31%;
+    height: 85px;
+    display: inline-block;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 90ch) {
+    .inputBox {
+        width: 90%;
+    }
+}
