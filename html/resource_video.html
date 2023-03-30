@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="../css/flex.css">
     <link rel="stylesheet" href="../css/navigation.css">
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-    <link rel="icon" type="image/png" href="./../img/favicon.png" />
+    <style>
+        .fullScreen {
+            height: 100%;
+            text-align: center;
+        }
+
+        .fullScreen a {
+            display: inline-block;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .fullScreen a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
     <title>Cailleach Gallery</title>
 </head>
 
@@ -22,13 +38,18 @@
             <label for="toggleNav" class="labelLook">&#9776</label>
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="painter_overview.html">Artist</a></li>
+                <li><a href="painter_overview">Artist</a></li>
                 <li><a href="event_overview.html">Event</a></li>
-                <li><a href="resource_overview">Resource</a></li>
+                <li><a href="resource_overview.html">Resource</a></li>
             </ul>
         </nav>
         <!-- main content -->
-        <main class="flex_1"></main>
+        <main class="flex_1">
+            <div class="fullScreen flex flex_ver flex_center_all">
+                <video width="700" controls autoplay>
+                <source src="../img/videoplayback.mp4" type="video/mp4"></video>
+            </div> 
+        </main>
         <!-- footer -->
         <footer class="flex flex_center_ver">
             <div>
